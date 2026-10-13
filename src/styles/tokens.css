@@ -1,0 +1,62 @@
+/* src/styles/tokens.css
+ * Tema "huellas" — azul confianza + amarillo cálido.
+ * Ratios WCAG verificados (AA texto normal ≥ 4.5:1, UI ≥ 3:1).
+ */
+
+:root {
+  color-scheme: light;
+
+  --font-body: 'Plus Jakarta Sans Variable', sans-serif;
+  --font-heading: 'Plus Jakarta Sans Variable', sans-serif;
+
+  --color-primary: #1259e8;
+  --color-primary-hover: #0b47c2;
+  --color-on-primary: #ffffff;
+  --color-primary-soft: #e3edff;
+  --color-accent: #ffd873;
+  --color-on-accent: #12151c;
+
+  --color-ink: #12151c;
+  --color-on-ink: #ffffff;
+
+  --color-background: #f2f6ff;
+  --color-surface: #ffffff;
+
+  --color-text: #12151c;
+  --color-text-muted: #4f5869;
+
+  --color-border: #dce4f2;
+  --color-border-strong: #7d899e;
+  --color-focus: #1259e8;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-xl: 48px;
+  --radius-full: 999px;
+}
+
+/* Dark Theme */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-primary: #6fa3ff;
+  --color-primary-hover: #9bc0ff;
+  --color-on-primary: #08163a;
+  --color-primary-soft: #1a2a4a;
+  --color-accent: #f2cb66;
+  --color-on-accent: #12151c;
+
+  --color-ink: #eef2fa;
+  --color-on-ink: #0c111c;
+
+  --color-background: #0c111c;
+  --color-surface: #151c2a;
+
+  --color-text: #eef2fa;
+  --color-text-muted: #a7b3c8; 
+
+  --color-border: #263247;
+  --color-border-strong: #5a6880;
+  --color-focus: #9bc0ff;
+}
